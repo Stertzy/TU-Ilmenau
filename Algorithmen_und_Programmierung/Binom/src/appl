@@ -1,0 +1,5 @@
+bin(n,k) = if n < k then 0 else fakultaet(n) / (fakultaet(k)*fakultaet(n-k)) ;                  
+    
+    
+    
+    bin(n,k) =  if n < k then 0 else if k == 0 V n == k then 1 else ((bin((n - 1), (k - 1)) + bin((n - 1), k))) fi fi

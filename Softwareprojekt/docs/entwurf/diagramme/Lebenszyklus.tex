@@ -1,0 +1,59 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+
+\title{Grobentwurf v0.2}
+\author{Philipp Schock}
+\date{\today}
+
+\begin{document}
+    \maketitle
+
+    \section{Lebenszyklus einer Nachricht}
+    \begin{enumerate}
+        \item
+            Nutzer tippt Nachricht in Chat-Activity ein.
+
+        \item
+            Nachricht wird in der Datenbank abgespeichert.
+
+        \item
+            Background-Service übergibt sie dem C++ Code.
+
+        \item
+            Die Nachricht wird komprimiert.
+
+        \item
+            Die Nachricht wird in der Cell-Send-Queue abgelegt.
+
+        \item
+            Die Nachricht wird Fragment für Fragment aus der Cell-Send-Queue genommen, Ende-zu-Ende verschlüsselt,
+            in Circuit-Cells gepackt und onion-verschlüsselt.
+
+        \item
+            Die Cell wird versendet.
+
+        \item
+            Die Cell kommt beim anderen Nutzer an.
+
+        \item
+            Die onion- und Ende-zu-Ende-Verschlüsselung werden entfernt.
+
+        \item
+            Die Nachricht wird Fragment für Fragment in die Cell-Receive-Queue geschrieben, bis alle Fragmente angekommen sind.
+
+        \item
+            Die Nachricht wird dekomprimiert.
+            
+        \item
+            Die Nachricht wird an den Background-Service übergeben.
+
+        \item
+            Der Background-Service speichert die Nachricht in der Datenbank.
+            Er zeigt dem User eine Push-Benachrichtigung an.
+
+        \item
+            Die Activity liest die Nachricht aus und zeigt sie dem Nutzer an.
+    \end{enumerate}
+\end{document}

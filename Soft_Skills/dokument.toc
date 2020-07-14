@@ -1,0 +1,6 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Was habe ich mitgenommen?}{1}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Was wusste ich bereits}{2}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Neues Wissen}{3}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Resonanz}{4}{chapter.5}%
+\contentsline {chapter}{Erklärung}{5}{chapter*.6}%

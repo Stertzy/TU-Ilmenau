@@ -1,0 +1,124 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "INTERACTIVE",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "environment": [],
+            "windows": {
+                "type": "cppvsdbg",
+                "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "externalConsole": true,
+                "preLaunchTask": "Build (WINDOWS)"
+            },
+            "linux": {
+                "MIMode": "gdb",
+                "preLaunchTask": "Build (LINUX)",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
+            },
+            "osx": {
+                "type": "lldb",
+                "preLaunchTask": "Build (MACOS)"
+            },
+        },
+        {
+            "name": "RUN sample.in",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [
+                "<",
+                "${fileDirname}/sample.in"
+            ],
+            "cwd": "${fileDirname}",
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "environment": [],
+            "windows": {
+                "type": "cppvsdbg",
+                "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "preLaunchTask": "Build (WINDOWS)"
+            },
+            "linux": {
+                "MIMode": "gdb",
+                "preLaunchTask": "Build (LINUX)",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
+            },
+            "osx": {
+                "type": "lldb",
+                "args": [],
+                "stdio": [
+                    "${fileDirname}/sample.in",
+                    null,
+                    null
+                ],
+                "preLaunchTask": "Build (MACOS)",
+            },
+        },
+        {
+            "name": "DIFF sample.in",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [
+                "<",
+                "${fileDirname}/sample.in",
+                ">",
+                "${fileDirname}/sample.out"
+            ],
+            "cwd": "${fileDirname}",
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "environment": [],
+            "postDebugTask": "Diff (UNIX)",
+            "windows": {
+                "type": "cppvsdbg",
+                "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "preLaunchTask": "Build (WINDOWS)",
+                "postDebugTask": "Diff (WINDOWS)"
+            },
+            "linux": {
+                "MIMode": "gdb",
+                "preLaunchTask": "Build (LINUX)",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
+            },
+            "osx": {
+                "type": "lldb",
+                "args": [],
+                "stdio": [
+                    "${fileDirname}/sample.in",
+                    "${fileDirname}/sample.out",
+                    null
+                ],
+                "preLaunchTask": "Build (MACOS)",
+            },
+        }
+    ]
+}

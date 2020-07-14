@@ -1,0 +1,51 @@
+\section{Qualitätszielbestimmungen}
+
+\begin{center}
+ \begin{tabular}{l|c|c|c|c}
+  ~ & sehr wichtig & wichtig & weniger wichtig & unwichtig\\
+  \hline \hline
+  \textit{Robustheit}~ &  ~ ~ ~ & \textbf{X}~ &  ~ ~ ~ &  ~ ~ ~ \\
+  \hline
+  \textit{Korrektheit}~ & \textbf{X}~ &  ~ ~ ~ &  ~ ~ ~ &  ~ ~ ~ \\
+  \hline
+  \textit{Benutzerfreundlichkeit}~ &  ~ ~ ~ & \textbf{X}~ &  ~ ~ ~ &  ~ ~ ~ \\
+  \hline
+  \textit{Effizienz}~ &  ~ ~ ~ &  ~ ~ ~ & \textbf{X}~ &  ~ ~ ~ \\
+  \hline
+  \textit{Energieeffizienz}~ &  ~ ~ ~ & \textbf{X}~ &  ~ ~ ~ &  ~ ~ ~ \\
+  \hline
+  \textit{Portierbarkeit}~ &  ~ ~ ~ & \textbf{X}~ &  ~ ~ ~ &   ~ ~ ~ \\
+ \end{tabular}
+
+    \begin{description}
+        \item[Robustheit]
+            bezeichnet hier die Toleranz gegenüber...
+            
+\begin{itemize}
+
+            \item ... fehlerhaften Nutzereingaben (passende Fehlerbehandlung),
+            \item ... Verlust der Internetverbindung (zuverlässige Übertragung, neu versuchen bei wiederhergestellter Verbindung)
+            und 
+            \item ... Systemabstürzen (Hydra-Protokoll wird nach Neustart gemäß Spezifikation weitergeführt).
+\end{itemize}            
+
+
+        \item[Korrektheit]
+            bezeichnet hier vor allem die Abwesenheit von Fehlern in der Implementierung des Hydra-Protokolls
+            und von kryptographischen Mechanismen, die die Sicherheit der Nutzer gefährden könnten.
+
+        \item[Benutzerfreundlichkeit]
+            bezeichnet hier vor allem, wie intuitiv die
+            Bedienung der graphischen Benutzeroberfläche für die Nutzer der Zielgruppe ist.
+
+        \item[Effizienz]
+            bezeichnet hier die Sparsamkeit bezüglich Rechenzeit und Speichernutzung.
+
+        \item[Energieeffizienz]
+            bezeichnet hier das Befolgen von best practices bei der Implementierung von Hintergrundprozessen.
+
+        \item[Portierbarkeit]
+            bezeichnet hier die Verringerung des Aufwands,
+            die Client-App für andere Plattformen (insbesondere iOS) neu zu implementieren.
+    \end{description}
+\end{center}

@@ -1,0 +1,60 @@
+\section{Zielbestimmungen}
+
+Im Folgenden wird gegliedert in Muss-, Wunsch- und Abgrenzungskriterien zusammengefasst, welchen Anforderungen der \ac{HC} entsprechen soll.
+
+\subsection{Musskriterien}
+\begin{itemize}
+	
+	\item Startseite
+	\begin{itemize}
+		\item Der Benutzer kann neue Kontakte hinzufügen
+		\item Der Benutzer kann Nicknames von bestehenden Kontakten bearbeiten
+		\item Der Benutzer kann bestehende Kontakte wieder löschen
+		\item Der Benutzer kann den Chatverlauf mit einem Kontakt löschen
+		\item Der Benutzer kann einen Chat mit einem seiner Kontakte öffnen 
+	\end{itemize}
+	
+	\item Chat
+	\begin{itemize}
+		\item Der Benutzer kann Textnachrichten an Kontakte verfassen
+		\item Der Benutzer kann Textnachrichten von Kontakten erhalten
+		\item Nachrichtenlänge ist aufgrund der Spezifikation des Hydra-Systems beschränkt
+		\item Der Benutzer kann den Chat beenden
+	\end{itemize}
+	
+	\item Sicherheit
+	\begin{itemize}
+		\item Nachrichten sind mittels einer \ac{E2EE} verschlüsselt und integritätsgeschützt
+		\item Nachrichten werden synchronisiert zum Beginn von \acp{CR} abgeschickt
+		\item Nachrichtenpakete werden onion-encrypted und haben immer die selbe Größe
+		\item Es werden auch Pakete gesendet und empfangen, wenn der Nutzer keine Nachrichten abschickt / keine Nachrichten an ihn adressiert sind (\acp{DC})
+		\item Es werden auch Pakete gesendet und empfangen, wenn die Applikation im Hintergrund läuft
+	\end{itemize}
+	
+	\item Sonstiges
+	\begin{itemize}
+		\item Sprache: Englisch
+		\item Erweiterbarkeit um mehr Sprachen
+	\end{itemize}
+	
+\end{itemize}
+
+\subsection{Wunschkriterien}
+\begin{itemize}
+	\item Registrierung am \ac{CS}
+	\item Blockieren einzelner Nutzer (vorausgesetzt der \ac{CS} ist implementiert)
+	\item Senden von Dateien
+		\item Größere Nachrichtengröße
+	\item Löschen von einzelnen Nachrichten
+	\item Archivieren von Chatverläufen
+	\item Passwort zum Öffnen der App
+	\item Personalisierung der Benutzeroberfläche
+	\item Push-Benachrichtigungen über neue Nachrichten
+\end{itemize}
+
+\subsection{Abgrenzungskriterien}
+\begin{itemize}
+	\item Es wird keine Internettelefonie geben (vgl. WhatsApp)
+	\item Hydra weist (verglichen mit anderen Messengern) große Latenzzeiten auf
+	\item Hydra ist ungeeignet für das Übermitteln großer Dateien
+\end{itemize}

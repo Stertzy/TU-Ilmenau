@@ -1,0 +1,80 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build (LINUX)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-Wno-sign-compare",
+                "-g3",
+                "-D_GLIBCXX_DEBUG",
+                "-std=c++14",
+                "${fileDirname}/${fileBasenameNoExtension}.cpp",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build (WINDOWS)",
+            "type": "shell",
+            "command": "cl.exe",
+            "args": [
+                "/std:c++14",
+                "/W2",
+                "/Zi",
+                "/EHsc",
+                "/Fe:",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${file}"
+            ],
+            "problemMatcher": [
+                "$msCompile"
+            ]
+        },
+        {
+            "label": "Build (MACOS)",
+            "type": "shell",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-std=c++14",
+                "-g",
+                "${fileDirname}/${fileBasenameNoExtension}.cpp",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Diff (UNIX)",
+            "type": "shell",
+            "command": "diff",
+            "args": [
+                "${fileDirname}/sample.out",
+                "${fileDirname}/sample.ans",
+                "-b",
+                // "--color"
+            ]
+        },
+        {
+            "label": "Diff (WINDOWS)",
+            "type": "shell",
+            "command": "fc.exe",
+            "args": [
+                "/w",
+                "/n",
+                "${fileDirname}\\sample.out",
+                "${fileDirname}\\sample.ans"
+            ]
+        },
+    ]
+}

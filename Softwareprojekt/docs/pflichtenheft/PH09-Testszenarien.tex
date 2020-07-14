@@ -1,0 +1,156 @@
+\section{Globale Testszenarien und -fälle}
+	
+	Jede Produktfunktion \textbf{/FXXXX/} wird anhand von konkreten Testfällen \textbf{/TXXXX/} getestet. 	
+Jede Wunschfunktion \textbf{/FXXXXW/}wird von jeweils \textbf{/TXXXXW/} getestet. 
+Voraussetzung dafür ist, dass die entsprechende Wunschfunktion \textbf{/FXXXXW/} implementiert wurde. \\
+Die Testszenarien werden von den Qualitätsmanagern, siehe Organisatorisches Dokument, durchgeführt. Dazu verwenden Sie zwei Smartphones, welche den Anforderungen, siehe \nameref{sec:Hardware}, entsprechen.\\
+Die dabei verwendeten Namen werden rein zufällig gewählt.
+
+	
+	\subsection{Testszenarien für Benutzerfunktionen}
+
+Im Folgenden werden alle Funktionen getestet, die ein Benutzer der App aktiv nutzen kann.
+
+		\subsubsection{Benutzer-Kennung}
+
+			\begin{description}
+		\item[/T0010/]
+			\textit{Passwort setzen:} 
+			\textnormal{Bob startet zum ersten Mal den \ac{HC}. 
+			Nun gibt er zwei mal in Folge sein Passwort \textit{//TestPW01} korrekt ein. }
+
+		\item[/T0020/] 
+			\textit{Anmelden:} 
+			\textnormal{Alice startet den \ac{HC} zum wiederholten Male. 
+			Um Zugriff auf den \ac{HC} zu gelangen, muss sie das Passwort, was sie in \textbf{/T0010/} gesetzt hat, korrekt eingeben.}
+			
+			
+		\item[/T0030/]
+			\textit{Passwort ändern:}
+			\textnormal{Bob will sein Passwort von \textit{Test12!!} zu \textit{Test34!!} ändern. 
+			Um dies umzusetzen gibt er zuerst das alte Passwort einmal korrekt ein und anschließend das neue Passwort zweimal korrekt ein.}
+			
+		\item[/T0040W/]
+			\textit{Registrieren:}
+			\textnormal{Bob möchte sich beim \ac{CS} registrieren. 
+			Dafür benutzt er seine private E-Mail-Adresse \textit{
+			bob@test.de}. }
+			
+			
+\subsubsection{Kontakte hinzufügen}
+
+			
+		\item[/T0110/]
+			\textit{Hinzufügen(1):} 
+			\textnormal{Alice und Bob wollen im \ac{HC} kommunizieren. 
+			Dazu treffen sie sich persönlich. Die Kontaktdaten werden mit einem QR-Code Scan ausgetauscht. 
+			  }			
+			
+		\item[/T0120W/]
+			\textit{Hinzufügen(2):} 
+			\textnormal{Alice und Bob möchten im \ac{HC} kommunizieren. 
+			Dafür benötigt einer von beiden, hier Alice, die E-Mail-Adresse von Bob: \textit{bob@test.de}. 
+			Dies klappt ohne Probleme, da Bob sich in \textbf{/T0030W/} beim \ac{CS} registriert hat .}
+			
+\subsubsection{Kontaktverwaltung}
+			
+		\item[/T0210/]
+			\textit{Entfernen:}
+			\textnormal{Alice entfernt Bob aus ihren Kontakten.}
+			
+		\item[/T0220/]
+			\textit{Bearbeiten:}
+				\textnormal{Alice ändert den Nickname von Bob.}
+				
+		\item[/T0230W/]
+			\textit{Blockieren:}
+				\textnormal{Alice blockiert Bob. }
+				
+				\item[/T0240W/]
+			\textit{Freischalten:}
+				\textnormal{Alice schaltet Bob wieder frei. }
+
+\subsubsection{Chatfunktion}
+
+		\item[/T0310-T0320/]
+			\textit{Chat starten und Textnachricht übermitteln:}
+				\textnormal{Um den Chat zu starten, sendet Alice eine zehn Zeichen lange Nachricht an Bob. \\ Anschließend schickt Bob eine 200 Zeichen lange Nachricht and Alice. }
+				
+		
+		\item[/T0330/]
+			\textit{Chat beenden:}
+			\textnormal{Alice beendet den Chat mit Bob.}		
+			
+					\item[/T0340/]
+			\textit{Chatverlauf löschen:}
+			\textnormal{Alice löscht den Chatverlauf mit Bob.}			
+			
+		\item[/T0350W/]
+			\textit{(Bild-)Dateien übermitteln:}
+			\textnormal{Bob schickt Alice eine 50KB große Bilddatei.} 
+			
+		\item[/T0360W/]
+			\textit{Textnachricht löschen:}
+			\textnormal{Alice löscht eine Nachricht im Chat mit Bob.} 
+			
+				\item[/T0370W/]
+			\textit{Chat archivieren:}
+			\textnormal{Alice archiviert den Chat mit Bob.} 
+			
+						\item[/T0380W/]
+			\textit{Chat dearchivieren:}
+			\textnormal{Alice dearchiviert den Chat mit Bob.} 
+			
+			
+		\subsubsection{Personalisierungsfunktionen}
+		
+		\item[/T0410W/]
+			\textit{Design ändern:}
+			\textnormal{Alice stellt das Design vom \textit{Dark-Mode} in den \textit{Light-Mode} .} 
+			
+			
+		\item[/T0420W/]
+			\textit{Hintergrundbild ändern:}
+			\textnormal{Alice ändert das Hintergrundbild für Chats.} 
+			
+			
+			
+	\subsection{Testszenarien für Hydra-Funktionen}	
+
+Im Folgenden werden alle Funktionen getestet, die das System aufgrund des Hydra- Protokolls ausführen muss.
+		
+			\item[/T0510-T0550/]
+				\textit{Setup Vorgang:}
+				\textnormal{Um die korrekte Funktionalität ihres \ac{HC} zu testen, schickt Alice eine 150 Zeichen lange Nachricht, sowie eine 100KB große Bilddatei an Bob. Wenn beide korrekt ankommen, weiß sie, dass das Setup korrekt ausgeführt wurde.}
+				
+				\subsection{Testszenarien der Ende-zu-Ende-Funktion}
+				Im Folgenden werden alle Funktionen getestet, die für die Ende-zu-Ende Übertragung der
+ Nachrichten zuständig sind.
+ 
+		\subsubsection{Fragmentierungsfunktionen}
+			\item[/T0610W-T0630W/]
+				\textit{Fragmentierungsfunktion:}
+				\textnormal{Bob sendet eine 5000 Zeichen lange Textnachricht an Alice.}
+				
+		\subsubsection{Kommunikationsfunktionen}	
+		
+		
+		
+			\item[/T0720/]
+				\textit{Zuverlässige Nachrichtenzustellung:}
+				\textnormal{Alice möchte kontrollieren, ob Nachrichten zuverlässig zugestellt werden. Dazu unterdrückt sie alle Acknowledgements, die ihr \ac{HC} versenden würde.}
+				
+			\item[/T0730W/]
+				\textit{Push-Benachrichtigung:}
+				\textnormal{Thomas Müller sendet eine Textnachricht an Tina Musterfrau.}
+				
+				
+	
+
+
+
+
+			
+			
+	\end{description}
+

@@ -1,0 +1,89 @@
+\section{Produktumgebung}
+Im Folgenden werden, neben einem kurzen Überblick über das Hydra-System, die Software- und Hardwareanforderungen erläutert.
+\subsection{Überblick über das Hydra-System}
+
+\subsubsection{Definitionen}
+\textit{Mix:}
+Ein Mix stellt einen von vielen Knotenpunkten im Hydra-System dar und leitet eingehende Datenpakete an andere Mixe oder einen der Rendezvous-Knoten weiter.
+Außerdem wird die Zuordnung von eingehenden zu ausgehenden Paketen durch synchrones Weiterleiten, feste Paketgröße und Umverschlüsselung verhindert.
+Der Client kommuniziert jede Epoche direkt nur mit einem Mix, genannt Entry-Mix, über den die Kommunikation mit den anderen Mixen erfolgt.
+Mixe, die mit einem Rendezvous-Knoten in Verbindung stehen, heißen hingegen Exit-Mixe.\\
+
+\textit{Circuit:}
+Über Circuits werden Nachrichten empfangen und versendet.
+Ein Circuit ist dabei ein Pfad aus mindestens drei Mixen.
+Die Anzahl der Mixe pro Circuit ist fest. 
+Der Client generiert selbstständig den Circuit aus den ihm bekannten Mixen nach dem Verfahren \glqq Ziehen ohne Zurücklegen\grqq.
+Ein Circuit kann gleichzeitig mehrere Kontakte bedienen.\\
+
+\textit{Onion-Encryption:}
+Onion-Encryption bedeutet, dass gesendete Nachrichten für jeden Mix, über den sie weitergeleitet werden, eine weitere \glqq Schicht\grqq \space einer Verschlüsselung erhalten. Dabei wird für einzelne \glqq Schichten\grqq \space unterschiedliche Schlüssel verwendet. Nach Hydra-Spezifikation werden diese durch das Setup-Paket mithilfe eines DH-Schlüsselaustauschs initialisiert.\\
+
+\textit{Setup-Paket:}
+Ein Setup-Paket beinhaltet die nötigen Informationen, um den Circuit zu initialisieren.
+Vor Beginn einer Epoche muss der Client bereits ein Setup-Paket an den Entry-Mix des
+neuen Circuits gesendet haben, um an der Epoche teilnehmen zu können.\\
+
+\textit{Circuit-Cell:}
+Circuit-Cells sind die Pakete, die die eigentlichen Nachrichten transportieren.
+Sie enthalten zudem u.a. noch Hydra-Token und die jeweilige CircuitID.\\
+
+\textit{\ac{DC}:}
+\acp{DC} sind Circuit-Cells ohne Information und mit zufällig generierten (und damit praktisch immer ungültigen) Tokens.
+Sie sind notwendig, um starke Anonymität zu gewährleisten.\\
+
+\textit{Rendezvous-Knoten:}
+Rendezvous-Knoten verbinden zwei Circuits miteinander und ermöglichen damit die Kommunikation zwischen Clients.\\
+
+\textit{Hydra-Token:}
+Diese dienen zur Adressierung, damit Rendezvous-Knoten Nachrichten an die korrekten Circuits weiterleiten.\\
+
+\textit{Epoche:}
+Eine Epoche besteht aus zwei Phasen: Setup und Kommunikation.
+Die Kommunikationsphase ist dabei in mehrere \acp{CR} unterteilt.
+Die Kommunikation findet synchronisiert statt.
+Innerhalb einer Epoche wechseln Clients Circuits nicht.\\
+
+\textit{\ac{DS}:}
+Der \ac{DS} stellt Informationen über das Netzwerk und verfügbare Mixe bereit, sowie wie viele \acp{CR} die nächste Epoche beinhalten wird, wann diese startet und wie lange die Wartezeiten zwischen den \acp{CR} andauern.\\
+
+\subsubsection{Kommunikation}
+Die Kommunikation findet in Epochen statt.
+Vor Beginn jeder Epoche müssen sich die Clients mit Setup-Paketen für sie angemeldet haben, indem er einen Circuit initialisiert hat.
+Der Ablauf einer solchen Initialisierung ist folgender: \\
+Es werden frische DH Schlüsselpaare für jeden Mix des Circuits erzeugt.
+Zusammen mit den Hydra-Tokens der Kontakte des Nutzers werden diese mit Onion-Encryption so verschlüsselt, dass jeder Mix im Circuit, angefangen beim Entry-Mix, die äußerste \glqq Schicht\grqq \space entfernt und die für ihn bestimmten Daten ausliest.
+Dabei handelt es sich vor allem um den öffentlichen Schlüssel und die Informationen zum Weiterleiten an den nächsten Mix.
+Der Exit-Mix entfernt die letzte \glqq Schicht\grqq \space, legt damit die Hydra-Tokens frei und leitet diese an den Rendezvous-Knoten weiter.
+
+Mit den Setup-Paketen werden auch CircuitIds initialisiert, sodass Circuit Cells lediglich die CircuitID zur erfolgreichen Weiterleitung benötigen.\\
+Clients können sich außerdem im Voraus für mehrere kommende Epochen anmelden.
+Für jede Epoche muss ein neuer Circuit initialisiert werden.
+Über diese werden in der Kommunikationsphase einer Epoche Nachrichten versandt und empfangen, jeweils eine Nachricht pro \ac{CR}.
+\acp{CR} sind dabei aufgeteilt in Upstream- und Downstream-Phasen.\\
+\acp{DC} werden sowohl von Clients, als auch von Mixen versandt, falls sie anderenfalls keine Nachricht senden würden.
+Mixe sind untereinander synchronisiert, damit jeder Mix seine Nachricht gleichzeitig mit den anderen weiterleitet.
+Rendezvous-Knoten hingegen leiten Nachrichten so schnell wie möglich weiter.
+
+\subsubsection{Verschlüsselung}
+Alle Datenpakete sind zwischen den Kommunikationspartnern mittels einer \ac{E2EE} verschlüsselt.
+Zudem sind sie in Circuits jeweils in Upstream- und Downstream Richtung Onion-encrypted.\\
+\newline
+Weder ein Nutzer, ein einzelner Mix oder der Rendezvous-Knoten kennen zu irgendeinem Zeitpunkt den gesamten Kommunikationspfad.
+Der Nutzer kennt lediglich seinen eigenen Circuit.
+Ein Mix kennt immer nur seinen Vorgänger oder Nachfolger.
+Der Rendezvous-Knoten kennt nur die Mixe, mit denen er direkt kommuniziert.
+
+\subsubsection{Kontakte hinzufügen}
+Um neue Kontakte hinzuzufügen, wird zur Initialisierung einer Hash-Chain ein gemeinsames Geheimnis ausgetauscht.
+Dies geschieht entweder durch ein persönliches Treffen mithilfe von QR-Codes, die jeweils vom Kommunikationsparter eingescannt werden müssen, oder durch \ac{CD}.\\
+Aus der Hash-Chain werden dann jede Epoche neue Schlüssel für \ac{E2EE} und Hydra Tokens generiert.\\
+Der \ac{CS} ist für die Registrierung und \ac{CD} notwendig. Bei der Registrierung wird die dazu notwendige E-Mailadresse genutzt um ein Pseudonym zu generieren und einen öffentlichen Schlüssel damit zu verbinden und öffentlich zugänglich zu machen. \ac{CD} beschreibt den Prozess, mit Hilfe eines Pseudonyms eine Kommunikation zu beginnen.\\
+
+
+\subsection{Software}
+Der Client benötigt ein Androidbetriebssystem mit Android 8.0 oder höher.
+	
+\subsection{Hardware}
+Hardwaretechnisch wird lediglich ein Smartphone mit Internetverbindung benötigt.
+

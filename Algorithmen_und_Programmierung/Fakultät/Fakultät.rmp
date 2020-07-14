@@ -1,0 +1,11 @@
+	LOAD #1
+Anfang: 	MUL 1
+	STORE 2
+	LOAD 1
+	SUB #1
+	STORE 1
+	JZERO Ende
+	LOAD 2
+	GOTO Anfang
+Ende: 	LOAD 2
+	END

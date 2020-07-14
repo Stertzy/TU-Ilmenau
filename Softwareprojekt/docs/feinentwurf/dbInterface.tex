@@ -1,0 +1,116 @@
+\documentclass[a4paper]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+
+\title{Schnittstellendefinition der Datenbankkomponente}
+\author{Philipp Schock, Lukas Meinl}
+\date{\today}
+
+\begin{document}
+    \maketitle
+
+    \section{Einleitung}
+
+    Die Folgende Schnittstellendefinition ist die Menge der Funktionen/Methoden, die die Datenbankkomponente
+    mindestens für die GUI und den Main-/Background-Service bereitstellen muss.
+    Abhängig von der inneren Architektur und letztendlichen Implementierung können sie zum Beispiel als statische Funktionen,
+    Methoden eines Sigletons oder Methoden einer Klasse von Objekten realisiert werden.
+    Die Wahl sollte so getroffen werden, dass das \texttt{Room}-Objekt so selten wie möglich instantiiert
+    (also so oft wie möglich wiederverwendet) wird, da dies sehr aufwendig ist.
+
+    \section{Definition}
+
+    \subsection{Zugriffe auf GUI-Seite}
+
+    \subsubsection{\texttt{getContacts()}}
+    Gibt alle Kontakte des Nutzers zurück.
+    Je nach Implementierung kann dies als Liste/Array, Stream, Iterator o.ä. gemacht werden.
+    Diese(r) muss sich \textbf{nicht} automatisch aktualisieren.
+    Der hierfür verwendete Datentyp \texttt{Contact} wird im Anhang spezifiziert.
+
+    \subsubsection{\texttt{getMessages(int contactID)}}
+    Gibt alle Nachrichten des Nutzers mit ID \texttt{contactID} zurück.
+    Je nach Implementierung kann dies als Liste/Array, Stream, Iterator o.ä. gemacht werden.
+    Diese(r) muss sich \textbf{nicht} automatisch aktualisieren.
+    Der hierfür verwendete Datentyp \texttt{Message} wird im Anhang spezifiziert.
+
+    \subsubsection{\texttt{addMessageToSend(int contactID, String content)}}
+    Schreibt eine neue Nachricht an den Kontakt mit der ID \texttt{contactID} in die Datenbank.
+    Die restlichen Attribute der Nachricht müssen hier berechnet werden.
+
+    \subsubsection{\texttt{addContact(String nickname)}}
+    \textbf{Zu Testzwecken vereinfachte Implementierung:}
+    Erstellt einen neuen Kontakt mit Anzeigenamen \texttt{nickname}.
+
+    \subsubsection{\textit{Optional}: \texttt{setNickname(int contactID, String nickname)}}
+    Ändert den Anzeigenamen des Kontakts mit der ID \texttt{contactID} in der Datenbank.
+
+    \subsubsection{\textit{Optional}: \texttt{setTrusted(int contactID, boolean trusted)}}
+    Ändert den Vertrauensstatus des Kontakts mit der ID \texttt{contactID} in der Datenbank.
+
+    \subsection{Zugriffe auf Service-Seite}
+
+    \subsubsection{\texttt{getUnsentMsg()}}
+    Gibt eine Nachricht (\texttt{Message}) zurück, für die entweder
+    \begin{itemize}
+        \item
+            \texttt{PassedToBackend?} falsch ist oder
+        \item
+            \texttt{TimeSent} länger als \texttt{timeout} (siehe Anhang) in der Vergangenheit liegt und \texttt{Acknowledged?} falsch ist.
+    \end{itemize}
+    \texttt{PassedToBackend?} soll hierbei auf wahr gesetzt werden.
+
+    \textbf{Zu Testzwecken vereinfachte Implementierung:}
+    nur erstes Kriterium.
+
+    \subsubsection{\texttt{addReceivedMessage(Message msg)}}
+    Schreibt eine neue Nachricht in die Datenbank.
+    Die drei Attribute \texttt{PassedToBackend?}, \texttt{TimeSent} und \texttt{Acknowledged?} sollen auf \texttt{null} o.ä. gesetzt werden.
+    Die restlichen Attribute der Nachricht müssen hier berechnet werden.
+
+    \subsubsection{\textit{Optional}: \texttt{setSent(int contactID, int msgID)}}
+    Setzt ausgehende Nachricht, die auf \texttt{contactID} und \texttt{msgID} passt, als gesendet.
+    Die Zeit muss hier berechnet und geschrieben werden.
+
+    \subsubsection{\textit{Optional}: \texttt{setAcknowledged(int contactID, int msgID)}}
+    Setzt ausgehende Nachricht, die auf \texttt{contactID} und \texttt{msgID} passt, als acknowledged.
+
+    \section{Anhang}
+
+    \subsection{Datentyp für Kontakte}
+
+    Der \texttt{Contact}-Datentyp sollte folgende Attribute haben, sowie \texttt{get} und \texttt{set} Methoden für diese:
+    \begin{itemize}
+        \item
+            \texttt{id:int}
+        \item
+            \texttt{nickname:String}
+        \item
+            \texttt{trusted:boolean}
+        \item
+            \texttt{hasChat:boolean}
+    \end{itemize}
+
+    \subsection{Datentyp für Nachrichten}
+
+    Der \texttt{Message}-Datentyp sollte folgende Attribute haben, sowie \texttt{get} und \texttt{set} Methoden für diese:
+    \begin{itemize}
+        \item
+            \texttt{contactID:int}
+        \item
+            \texttt{msgID:int}
+        \item
+            \texttt{received:boolean}
+        \item
+            \texttt{content:String}
+        \item
+            \texttt{sent:boolean}
+        \item
+            \texttt{acknowledged:boolean}
+    \end{itemize}
+
+    \subsection{\textit{Optional}: Timeout}
+
+    Der Timeout soll vorerst als Konstante in der Datenbankkomponente implementiert werden.
+\end{document}

@@ -1,0 +1,208 @@
+\section{Produktfunktionen}
+In diesem Kapitel werden alle Funktionen beschrieben, die das System ausführen kann. 
+Es wird dabei zwischen Pflichtfunktionen (\textbf{/FXXXX/}) und Wunschfunktionen (\textbf{/FXXXXW/}) unterschieden. 
+Die Pflichtfunktionen sind entweder notwendig für die Funktionalität des Systems oder dienen der Benutzerfreundlichkeit.
+Die Wunschfunktionen hingegen sind optional und nicht für die grundlegende Funktionalität des Systems notwendig.
+
+\subsection{Benutzerfunktionen}
+Im Folgenden werden alle Funktionen beschrieben, die ein Benutzer der App aktiv nutzen kann.
+\subsubsection{Benutzer-Kennung}
+	\begin{description}
+		\item[/F0010W/]
+			\textit{Passwort setzen:}
+			Ein neuer Benutzer muss beim ersten Start der App ein \textbf{Passwort setzen}. 
+			Das Passwort muss dabei zweimal angegeben werden, wobei sich diese Angaben nicht unterscheiden dürfen.
+		\item[/F0020W/]
+			\textit{Anmelden:}
+			Der Benutzer muss sich bei jedem App-Start \textbf{anmelden}. 
+			Dafür muss er sein \textbf{Passwort} eingeben.
+			Voraussetzung dafür ist, dass der Benutzer bereits ein Passwort gesetzt (\textbf{/F0010/}) hat und die Hash-Chain initialisiert ist.
+		\item[/F0030W/]
+			\textit{Passwort ändern:}
+				Der Benutzer kann das \textbf{Passwort ändern}.
+				Das neue Passwort muss zweimal angegeben werden, wobei sich diese Angaben nicht unterscheiden dürfen.
+		\item[/F0040W/]
+			\textit{Registrieren:}
+			Der Benutzer kann sich beim \ac{CS} \textbf{registrieren}.
+			Zum Registrieren benötigt der Benutzer seine eigene, bzw. private \textbf{E-Mail-Adresse}.
+			Der Benutzer kann dabei selbst ein PGP-Schlüsselpaar importieren, falls er dies möchte. 
+			Ansonsten wird das System ein Schlüsselpaar erstellen.\\
+			Die Registrierung ist erfolgreich, wenn die \textit{E-Mail-Adresse} innerhalb des Systems jeweils eindeutig ist. 
+			Die \textit{E-Mail-Adresse} wird auf ihre Gültigkeit geprüft. 
+			Mit dem erfolgreichen Abschließen des Registrierungsvorgangs ist der neue Benutzer  dem \ac{CS} bekannt.
+	\end{description}
+\subsubsection{Kontakte hinzufügen}
+Der Benutzer verfügt über ein \textbf{Kontaktbuch}, in dem er andere Benutzer als \textbf{Kontakte speichern} kann. \\
+\\
+Der Benutzer hat in dem idealen Hydra-System (indem alle Wunschfunktionen implementiert sind) zwei Möglichkeiten, einen Kontakt hinzuzufügen.
+	\begin{description}
+		\item[/F0110/]
+			\textit{Hinzufügen(1):}
+			Der Benutzer kann einen anderen Benutzer als \textbf{Kontakt hinzufügen}.
+			Dazu müssen sie sich persönlich treffen. 		
+			Dabei wird ein gemeinsamer Schlüssel über zwei \textbf{QR-Codes} (einen je Benutzer) ausgetauscht und eine Hash-Chain initialisiert.
+		\item[/F0120W/]
+		\textit{Hinzufügen(2):}
+			Der Benutzer $A$ kann einen anderen Benutzer $B$ als \textbf{Kontakt hinzufügen}. 
+			Dafür benötigt Benutzer $A$ die \textbf{E-Mail-Adresse} von Benutzer $B$.
+			Im Gegensatz zu \textbf{/F0110/} muss Benutzer $B$ sich im System registriert (\textbf{/F0040W/}) haben.\\
+		Zudem führt das System  einen \ac{DHKE} mit einem anderen System (App eines anderen Benutzers) aus. 
+		Dabei wird auch die Authentizität anhand des öffentlichen Schlüssels überprüft. Mit diesem Vorgang wird außerdem die Hash-Chain initialisiert.
+	\end{description}
+	
+\subsubsection{Kontaktverwaltung}
+	\begin{description}
+		\item[/F0210/]
+			\textit{Entfernen:}
+			Der Benutzer kann einen \textbf{Kontakt entfernen}.
+		\item[/F0220/]
+			\textit{Bearbeiten:}
+			Der Benutzer kann einen \textbf{Kontakt bearbeiten} und somit den \textbf{Nicknamen} des Kontaktes ändern.
+		\item[/F0230W/]
+			\textit{Blockieren:}
+				Der Benutzer kann einen \textbf{Kontakt blockieren}. 
+				Dadurch wird jegliche Kommunikation zwischen dem Benutzer und dem Kontakt unterbunden.	
+		\item[/F0240W/]
+			\textit{Freischalten:} 
+			Der Benutzer kann einen \textbf{blockierten Kontakt freischalten}.
+			Dadurch können beide Benutzer wieder über den \ac{HC} in Kontakt treten.		
+	\end{description}
+	
+\subsubsection{Chatfunktionen}
+	\begin{description}
+		\item[/F0310/]
+			\textit{Chat starten:}
+			Der Benutzer kann einen \textbf{Chat} mit einem Kontakt \textbf{starten}. 
+		\item[/F0320/]
+			\textit{Textnachricht übermitteln:} 
+			Der Benutzer kann in einem Chat eine \textbf{Textnachricht} an einen Kontakt \textbf{übermitteln}.
+			Eine Textnachricht besteht dabei maximal aus \textbf{200 ASCII-Zeichen}.
+		\item[/F0330/]
+			\textit{Chat beenden:}
+			Der Benutzer kann den \textbf{Chat} mit einem Kontakt \textbf{beenden}. 
+		\item[/F0340/]
+			\textit{Chatverlauf löschen:}
+			Der Benutzer kann den \textbf{Chatverlauf} eines Chats \textbf{löschen}.
+		\item[/F0350W/]
+			\textit{(Bild-)Dateien übermitteln:}
+			Der Benutzer kann in einem Chat eine beliebige \textbf{(Bild-)Datei} an einen Kontakt \textbf{übermitteln}. 
+			Dabei wird es eine Obergrenze der Dateigröße geben, welche erst später im Entwurf festgelegt werden kann.
+			Der Benutzer kann den Sendevorgang abbrechen.\\
+			Voraussetzung für diese Funktion ist, dass die Funktionen \textbf{/F0610W/}, \textbf{/F0620W/} und \textbf{/F0630W/} implementiert sind.
+		\item[/F0360W/]
+			\textit{Chateinträge löschen:}
+			Der Benutzer kann eine gesendete \textbf{Nachricht} lokal aus dem Chatverlauf \textbf{löschen}.
+		\item[/F0370W/]
+			\textit{Chat archivieren:}
+				Der Benutzer kann einen \textbf{Chatverlauf} lokal \textbf{archivieren}.
+		\item[/F0380W/]
+			\textit{Chat dearchivieren:}
+				Der Benutzer kann einen \textbf{Chatverlauf} lokal \textbf{dearchivieren}.			
+	\end{description}
+
+\subsubsection{Personalisierungsfunktionen}
+	\begin{description}
+		\item[/F0410W/]
+			\textit{Design ändern:}
+				Der Benutzer kann das \textbf{Design} der Benutzeroberfläche \textbf{ändern}.
+				Er kann sich dabei zwischen einem  \glqq  Light-Mode\grqq   $\,$ und einem  \glqq Dark-Mode\grqq $\,$ entscheiden.
+		\item[/F0420W/]
+			\textit{Hintergrundbild ändern:}
+			Der Benutzer kann das \textbf{Hintergrundbild ändern}, welches bei den Chats angezeigt wird.
+	\end{description}
+	
+\subsection{Hydra-Funktionen}
+Im Folgenden werden alle Funktionen beschrieben, die das System aufgrund des Hydra-Protokolls ausführen muss.\\
+\\
+Des Weiteren sei eine \textit{Nachricht} eine Textnachricht oder eine (Bild-)Datei, die der Benutzer an einen Kontakt übermitteln möchte.
+	\begin{description}
+		\item[/F0510/]
+			\textit{Kommunikation mit dem \ac{DS}:}
+			Das System \textbf{kommuniziert} jede Epoche mit dem \ac{DS}.
+			Dabei erhält es Informationen für die nächsten anstehenden Epochen.
+			Diese Information bestehen für je eine Epoche aus:
+			\begin{itemize}
+				\item
+					Alle \textbf{verfügbaren Mixe}, welche folgenden Informationen beinhalten:
+					\begin{itemize}
+						\item
+							IP-Adresse
+						\item
+							Port
+						\item
+							Public Key (öffentlicher Teil von \ac{ECDH})
+					\end{itemize}
+				\item 
+					\textbf{Länge des Pfades}
+				\item 
+					\textbf{Epochennummer und -startzeit}
+				\item 
+					\textbf{Wartezeit} zwischen den Kommunikationsrunden
+				\item
+					\textbf{Dauer} einer Kommunikationsrunde
+				\item 
+					\textbf{Anzahl der Kommunikationsrunden} pro Epoche
+			\end{itemize}
+		\item[/F0520/]
+			\textit{Circuit generieren:} 
+			Das System \textbf{generiert} einen \textbf{Circuit} nach den Hydra-Spezifikationen.
+		\item[/F0530/]
+			\textit{Setup-Packet erstellen:} 
+			Das System \textbf{erstellt} ein \textbf{Setup-Packet} für jede Epoche aus \textbf{/F0510/} nach den Hydra-Spezifikationen.
+		\item[/F0540/]
+			\textit{Setup-Packet versenden:}
+			Das System \textbf{versendet} jede Epoche und so früh wie möglich mindestens ein \textbf{Setup-Packet} nach den Hydra-Spezifikationen.
+		\item[/F0550/]
+			\textit{Nachrichten versenden:} 
+			Das System \textbf{puffert und versendet Nachrichten} nach den Hydra-Spezifikationen.
+	\end{description}
+	
+\subsection{Ende-zu-Ende-Funktion}
+Im Folgenden werden alle Funktionen aufgelistet, die für die Ende-zu-Ende Übertragung der Nachrichten zuständig sind.
+\subsubsection{Fragmentierungsfunktionen}
+Die hier aufgelisteten Wunschfunktionen (\textbf{/F0610W/, /F0620W/, /F0630W/}) führen dazu, dass die in \textbf{/F0320/} genannte maximale Größe einer Nachricht von 200 Zeichen aufgehoben wird. 
+Dabei wird es eine neue Obergrenze für die maximale Größe einer Nachricht geben, welche aber erst (wie in \textbf{/F0350W/} schon beschrieben) später im Entwurf festgelegt werden kann.
+	\begin{description}
+		\item[/F0610W/]
+			\textit{Nachrichten komprimieren:} 
+			Das System \textbf{komprimiert} jede \textbf{Nachricht}.
+		\item[/F0620W/]
+			\textit{Nachrichten fragmentieren:}
+			Das System kann große \textbf{Nachrichten in Fragmente aufteilen}.
+		\item[/F0630W/]
+			\textit{Nachrichten defragmentieren:}
+			Das System kann \textbf{Fragmente}  von Nachrichten \textbf{erkennen} und diese \textbf{zusammenfügen}.
+	\end{description}
+	
+\subsubsection{Kommunikationsfunktionen}
+	\begin{description}
+		\item[/F0710/]
+			\textit{Nachrichten Ende-zu-Ende Verschlüsseln:}
+			Das System \textbf{verschlüsselt Nachrichten} mittels einer \ac{E2EE}. Zudem wird ein Integritätsschutz, falls nicht von der \ac{E2EE} gewährleistet, implementiert.
+			Somit wird die Vertraulichkeit und Integrität geschützt.
+		\item[/F0720/]
+			\textit{Zuverlässige Nachrichtenzustellung:}
+			Das System \textbf{versucht} eine \textbf{Nachricht zuzustellen}. 
+			Nach 48 Stunden erfolgloser Versuche wird das System selbstständig keinen weiteren Versuch unternehmen.
+			Der Benutzer wird dann gefragt, ob das System es noch einmal versuchen soll.
+		\item[/F0730W/]
+			\textit{Push-Benachrichtigung:}
+			Das System teilt dem Benutzer mittels einer \textbf{Push-Benachrichtigung} mit, wenn er eine Nachricht von einem anderen Benutzer erhalten hat.
+
+	\end{description}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

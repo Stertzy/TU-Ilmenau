@@ -1,0 +1,39 @@
+\section{Produktdaten}
+\begin{itemize}
+	
+	\item Kennung:\\
+		Bei Implementierung des \ac{CS} wird basierend auf einer eindeutigen und gültigen E-Mail-Adresse eine KontaktID generiert.
+	\item Statisches Schlüsselmaterial:  
+	\begin{itemize}
+		\item Öffentlicher Schlüssel	(nur mit \ac{CS} nötig)
+		\item Privater Schlüssel		(nur mit \ac{CS} nötig)
+	\end{itemize}
+	\item Verbindungsdaten:
+	\begin{itemize}
+		\item Aktive Epoche
+		\item Netzwerkinformationen:	(siehe Kapitel 4.2.1 /F0510/)
+		\item Pro Epoche:	(nur die Epochen, für die ein Setup-Paket existiert)
+		\begin{itemize}
+			\item CicuitID
+			\item Ausgewählte Mixe mit zugehörigen Schlüsseln
+			\item Entry-Mix
+			\item Startzeitpunkt der Setup-Phase
+			\item Startzeitpunkt der Kommunikationsphase
+			\item Dauer der \acp{CR}
+			\item Wartezeit zwischen den \acp{CR}
+			\item Anzahl der \acp{CR}
+			\item Versendete Datenpakete, für die noch kein Ack angekommen ist
+			\item Fehlgeschlagene Sendeversuche
+		\end{itemize}
+	\end{itemize}
+	Kontaktbuch (verschlüsselt):
+	\begin{itemize}
+		\item Nickname für jeden Kontakt
+		\item aktuelles Ende der Hash Chain für jeden Kontakt
+		\item Lokaler Speicher des Chatverlaufes für jeden Kontakt
+		(verschlüsselt)
+	\end{itemize}
+
+
+
+\end{itemize}

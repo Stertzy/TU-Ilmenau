@@ -1,0 +1,27 @@
+\subsection{Entwurfsziele}
+
+\begin{description}
+	
+	\item[Korrektheit:] 
+	Messages werden durch den \ac{HC} vollständig und korrekt und an den gewünschten Adressaten übermittelt. Dabei ist die Implementierung des System frei von Fehlern, die die Anonymität oder Integrität der Nutzer gefährden könnten.
+	
+	\item [Sicherheit:] Nachrichten sind gemäß der Spezifikationen des \acp{HS} kryptographisch geschützt, sodass sie weder rückverfolgt, noch mitgelesen werden können.
+	
+	\item [Erweiterbarkeit:] Der \ac{HC} soll möglichst einfach um die zusätzlichen Wunschfunktionen erweiterbar sein.
+	
+	\item [Optimierbarkeit:] Im Zuge der Entwicklung soll Veränderungen von Komponenten des \ac{HC} zur Verbesserung des System leicht umzusetzen sein.
+	Diese könnten sein: 
+	\begin{itemize}
+		\item Verbesserung der \ac{GUI}
+		\item Verbesserung der Datenbank
+		\item Verbesserung der kryptographischen Funktionen
+		\item Allgemeine Bugfixes
+	\end{itemize}
+	\item [Lesbarkeit:] Laufende Kommentare im Code und eine ausführliche Dokumentation sollen dem besseren Verständnis des Systems dienen.
+	
+	\item [Effizienz:] Das System soll möglichst schonend für Akkuladung sowie Rechenkapazität sein.
+	
+	\item [Benutzerfreundlichkeit:]
+	Die \ac{GUI} soll für Nutzer intuitiv bedienbar sein unter der Voraussetzung, dass sie bereits Erfahrung mit Messengerdiensten haben.
+
+\end{description}

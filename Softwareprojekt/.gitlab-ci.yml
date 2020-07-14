@@ -1,0 +1,62 @@
+image: blang/latex
+stages:
+  - compile
+compile_pflichtenheft:
+  stage: compile
+  only:
+    refs:
+      - master
+  script:
+    - cd docs/pflichtenheft
+    - latexmk -pdf Pflichtenheft.tex
+  artifacts:
+    paths:
+      - docs/pflichtenheft/Pflichtenheft.pdf
+
+compile_entwurfsdok:
+  stage: compile
+  only:
+    refs:
+      - master
+  script:
+    - cd docs/entwurf
+    - latexmk -pdf Entwurfsdokumentation.tex
+  artifacts:
+    paths:
+      - docs/entwurf/Entwurfsdokumentation.pdf
+
+compile_orgdok:
+  stage: compile
+  only:
+    refs:
+      - master
+  script:
+    - cd docs/organisation
+    - latexmk -pdf Org_Dok.tex
+  artifacts:
+    paths:
+      - docs/organisation/Org_Dok.pdf
+      
+compile_pres:
+  stage: compile
+  only:
+    refs:
+      - master
+  script:
+    - cd docs/presentation
+    - latexmk -pdf pres.tex
+  artifacts:
+    paths:
+      - docs/presentation/pres.pdf
+
+compile_dbdef:
+  stage: compile
+  only:
+    refs:
+      - master
+  script:
+    - cd docs/feinentwurf
+    - latexmk -pdf dbInterface.tex
+  artifacts:
+    paths:
+      - docs/feinentwurf/dbInterface.pdf

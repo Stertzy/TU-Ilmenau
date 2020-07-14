@@ -1,0 +1,11 @@
+\subsection{Anforderungsanalyse}
+
+Der \ac{HC} muss vollständig nach Hydra-Spezifikationen laufen.
+Dabei müssen wir folgenden Anforderungen nachkommen: 
+\begin{itemize}
+	\item  \ac{gRPC} für Kommunikation mit \ac{DS} und dem Entry-Mix 
+	\item \ac{ECDH} für Schlüsselaustausch über Setup-Pakete 
+	\item \ac{AES} für die Authenticated Encryption der Setup-Pakete 
+	\item Feistel-Netzwerk mit 12 Runden Threefish-1024 für \ac{OE}
+	\item Größe der Setup-Pakete und \acp{CC}
+\end{itemize}

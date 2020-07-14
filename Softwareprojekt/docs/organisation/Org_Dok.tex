@@ -1,0 +1,27 @@
+\documentclass[a4paper, 11pt, ngerman, fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{ngerman}
+\usepackage{coordsys,logsys,color}
+\usepackage{german,fancyhdr}
+\usepackage{hyperref}
+\usepackage{texdraw}
+\usepackage[printonlyused,withpage]{acronym}
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{hyperref}
+\definecolor{darkblue}{rgb}{0,0,.6}
+\hypersetup{pdftex=false, colorlinks=true, breaklinks=true, linkcolor=darkblue, menucolor=darkblue, pagecolor=darkblue, urlcolor=darkblue, citecolor=darkblue}
+
+\pagestyle{fancy}
+
+\input{_Org_Dok.tex}
+
+\begin{document}
+  	\input{OG00-Titelblatt} \newpage
+  	\tableofcontents \newpage
+  	\input{OG01-Vorgehensmodell} \newpage
+	\input{OG02-Rollen} \newpage
+  	\input{OG03-Meilensteine} 
+\end{document}

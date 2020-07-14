@@ -1,0 +1,29 @@
+\documentclass[a4paper, 11pt, ngerman, fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{ngerman}
+\usepackage{coordsys,logsys,color}
+\usepackage{german,fancyhdr}
+\usepackage{hyperref}
+\usepackage{texdraw}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[printonlyused,withpage]{acronym}
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{hyperref}
+\definecolor{darkblue}{rgb}{0,0,.6}
+\hypersetup{pdftex=false, colorlinks=true, breaklinks=true, linkcolor=darkblue, menucolor=darkblue, pagecolor=darkblue, urlcolor=darkblue, citecolor=darkblue}
+
+\pagestyle{fancy}
+
+\input{_Entwurfsdokumentation.tex}
+
+\begin{document}
+  \input{ED00-Titelblatt} \newpage
+  \tableofcontents \newpage
+  \input{ED01_0-Einleitung} \newpage
+  \input{ED02_0-Grobentwurf} \newpage
+  \input{ED03-Abkuerzungsverzeichnis} \newpage
+\end{document}
