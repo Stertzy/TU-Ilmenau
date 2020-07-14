@@ -1,0 +1,354 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit)
+entering extended mode
+(dokument.tex
+LaTeX2e <2018-12-01>
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrrep
+rt.cls"
+Document Class: scrreprt 2019/02/01 v3.26b KOMA-Script document class (report)
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrkba
+se.sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrbas
+e.sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfi
+le.sty")))
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\tocbas
+ic.sty")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrsiz
+e12pt.clo")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\typear
+ea.sty"))
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/play\play.sty")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/srcltx\srcltx.sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"))
+ ("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty
+"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg")
+:<+ pdftex.def.tex
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def")
+:<-
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.
+sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"))
+)
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
+y")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigur
+e.sty"
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigur
+e.cfg"))
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+")
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+)
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
+an.ldf"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
+anb.ldf"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")))))
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+) ("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty
+" ("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def")
+) ("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\lmodern.sty")
+ ("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+)
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg")))
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrpag
+e2.sty"
+
+Package scrpage2 Warning: usage of obsolete package!
+(scrpage2)                Package `scrpage2' is obsolete.
+(scrpage2)                You should not longer use package `scrpage2'.
+(scrpage2)                You should replace usage of package `scrpage2'
+(scrpage2)                by `scrlayer-scrpage' on input line 52.
+
+)
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
+sty") ("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cite\cite.st
+y")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
+sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+hyperref.sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+generic.sty"))
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.s
+ty")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty")
+:<+ pd1enc.def.tex
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
+f")
+:<-
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
+cfg"))
+:<+ hpdftex.def.tex
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
+ef"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
+check.sty"))
+:<-
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 75.
+
+
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/nomencl\nomencl.st
+y"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.st
+y"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.
+tex"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils
+.tex"))))
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ulem\ulem.sty")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
+sty") (dokument.aux
+
+LaTeX Warning: Label `img:passante' multiply defined.
+
+
+LaTeX Warning: Label `img:passante' multiply defined.
+
+
+LaTeX Warning: Label `img:passante' multiply defined.
+
+
+LaTeX Warning: Label `img:passante' multiply defined.
+
+) ("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"))
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
+ty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettitl
+estring.sty")) (dokument.out) (dokument.out)
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\bookmark.
+sty"
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\bkm-pdfte
+x.def"))
+:<+ titelblatt.tex
+(titelblatt.tex
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd")
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd")
+[1{C:/Users/velvy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./bilder/
+tui_logo.pdf>])
+:<-
+:<+ vorwort.tex
+(vorwort.tex
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"))
+:<-
+:<+ kurzfassung.tex
+(kurzfassung.tex [2] [3] [4])
+:<-
+(dokument.toc [1]) [2]
+:<+ Deffinition.tex
+(Deffinition.tex
+chapter 1.
+
+Class scrreprt Warning: \float@addtolists detected!
+(scrreprt)              Implementation of \float@addtolist became
+(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrreprt)              has been replaced by several more flexible
+(scrreprt)              features of package `tocbasic`.
+(scrreprt)              Since Version 3.12 support for deprecated
+(scrreprt)              \float@addtolist interface has been
+(scrreprt)              restricted to only some of the KOMA-Script
+(scrreprt)              features and been removed from others.
+(scrreprt)              Loading of package `scrhack' may help to
+(scrreprt)              avoid this warning, if you are using a
+(scrreprt)              a package that still implements the
+(scrreprt)              deprecated \float@addtolist interface .
+
+)
+:<-
+:<+ K\IeC {\"u}nstliche_Intelligenz.tex
+(Künstliche_Intelligenz.tex [1]
+chapter 2.
+[2]
+Overfull \hbox (15.94647pt too wide) in paragraph at lines 49--50
+ [][][] 
+)
+:<-
+:<+ Turing.tex
+(Turing.tex [3] [4 <./table.png>]
+chapter 3.
+
+LaTeX Warning: Citation `Turing_Leben' on page 5 undefined on input line 19.
+
+
+LaTeX Warning: Citation `gregorl\IeC {\"u}di/martinl\IeC {\"u}scher20077' on pa
+ge 5 undefined on input line 22.
+
+[5])
+:<-
+:<+ NierAutomata.tex
+(NierAutomata.tex [6]
+chapter 4.
+[7]
+
+LaTeX Warning: Citation `nier:automatawikia2019npc' on page 8 undefined on inpu
+t line 50.
+
+[8] [9] [10])
+:<-
+:<+ Dystopie.tex
+(Dystopie.tex [11]
+chapter 5.
+[12])
+:<-
+:<+ Fazit.tex
+(Fazit.tex [13]
+chapter 6.
+)
+:<-
+[14] [15]
+:<+ Epilog.tex
+(Epilog.tex
+chapter A.
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 29.
+
+[16] [17]
+Overfull \hbox (12.70528pt too wide) in paragraph at lines 121--122
+[][]\T1/lmr/m/n/12 (\T1/lmr/m/it/12 narration\T1/lmr/m/n/12 ) I al-so heard abo
+ut how the two of them de-stroy-ed so-me hu-ge "Tower"that
+[18] [19] [20] [21] [22])
+:<-
+:<+ anhang_literaturverzeichnis.tex
+(anhang_literaturverzeichnis.tex [23]
+:<+ dokument.bbl
+(dokument.bbl
+chapter without number
+("C:\Users\velvy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd")
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+\T1/lmtt/m/n/12 ai / de / blog / post / geschichte-[]kuenstlicher-[]intelligenz
+ . html$[]\T1/lmr/m/n/12 .
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+[][]\T1/lmr/m/sc/12 Dika\T1/lmr/m/n/12 , Ma-ja:  \T1/lmr/m/it/12 Un-ser Wun-der
+-sa-mes Be-geh-
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+\T1/lmr/m/it/12 ren nach Dys-to-pi-en\T1/lmr/m/n/12 .  []$[]\T1/lmtt/m/n/12 htt
+ps : / / liechtenecker . at /
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+\T1/lmtt/m/n/12 unser-[]wundersames-[]begehren-[]nach-[]dystopien-[]und-[]utopi
+en/$[]\T1/lmr/m/n/12 .
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+[][]\T1/lmr/m/sc/12 Jaai\T1/lmr/m/n/12 :  \T1/lmr/m/it/12 mensch oder ma-schi-n
+e der tu-
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+\T1/lmr/m/it/12 ring test ein-fach er-klaert\T1/lmr/m/n/12 .  []$[]\T1/lmtt/m/n
+/12 https : / / jaai . de /
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+\T1/lmtt/m/n/12 mensch-[]oder-[]maschine-[]der-[]turing-[]test-[]einfach-[]erkl
+aert-[]1385/$[]\T1/lmr/m/n/12 .
+[24]
+Underfull \hbox (badness 1867) in paragraph at lines 57--61
+[][]\T1/lmr/m/sc/12 Wikia\T1/lmr/m/n/12 , Nier:Automata:  \T1/lmr/m/it/12 Yor-h
+a 2B\T1/lmr/m/n/12 .  []$[]\T1/lmtt/m/n/12 https : / / nierautomata . wiki .
+
+Underfull \hbox (badness 2103) in paragraph at lines 63--67
+[][]\T1/lmr/m/sc/12 Wikia\T1/lmr/m/n/12 , Nier:Automata:  \T1/lmr/m/it/12 Yor-h
+a 9S\T1/lmr/m/n/12 .  []$[]\T1/lmtt/m/n/12 https : / / nierautomata . wiki .
+)
+:<-
+
+Overfull \hbox (2417.71478pt too wide) in paragraph at lines 30--31
+[][]  
+)
+:<-
+:<+ Bilder.tex
+(Bilder.tex [25]
+chapter B.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26 <./Nier/world/area.jpg> <./Nier/world/desert.jpg>] [27 <./Nier/world/water.
+jpg> <./Nier/world/fun.jpg>] [28 <./Nier/Chara/YoRHa_No-9_Type_S.png> <./Nier/C
+hara/YoRHa_No-2_Type_B.png>])
+:<-
+:<+ anhang_abbildungsverzeichnis.tex
+(anhang_abbildungsverzeichnis.tex [29 <./Nier/Chara/YoRHa_Commander.png> <./Nie
+r/Chara/YoRHa_No-2A.png>] (dokument.lof))
+:<-
+:<+ thesen.tex
+(thesen.tex [30])
+:<-
+:<+ abschlusserklaerung.tex
+(abschlusserklaerung.tex [31])
+:<-
+[32] (dokument.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(see the transcript file for additional information){C:/Users/velvy/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/velvy/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/velvy/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/velvy/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/velvy
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/ve
+lvy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users
+/velvy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/U
+sers/velvy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><
+C:/Users/velvy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro8.pf
+b><C:/Users/velvy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssb
+x10.pfb><C:/Users/velvy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm
+/lmtt12.pfb>
+Output written on dokument.pdf (38 pages, 2371901 bytes).
+SyncTeX written on dokument.synctex.gz.
+Transcript written on dokument.log.

@@ -1,0 +1,27 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: dokument.aux
+White space in argument---line 58 of file dokument.aux
+ : \citation{gregorl\IeC
+ :                       {\"u}di/martinl\IeC {\"u}scher20077}
+I'm skipping whatever remains of this command
+The style file: alphadin.bst
+Database file #1: literatur.bib
+Warning--entry type for "jaai2019" isn't style-file defined
+--line 1 of file literatur.bib
+Warning--entry type for "telekomag2019" isn't style-file defined
+--line 15 of file literatur.bib
+Warning--entry type for "nier:automatawikia20192b" isn't style-file defined
+--line 31 of file literatur.bib
+Warning--entry type for "nier:automatawikia20199S" isn't style-file defined
+--line 38 of file literatur.bib
+Warning--entry type for "verschiedene2019npc" isn't style-file defined
+--line 59 of file literatur.bib
+Warning--entry type for "dysto" isn't style-file defined
+--line 85 of file literatur.bib
+Warning--entry type for "Turing_Leben" isn't style-file defined
+--line 94 of file literatur.bib
+Warning--entry type for "Workshop" isn't style-file defined
+--line 103 of file literatur.bib
+A bad cross reference---entry "deepmind2018"
+refers to entry "none", which doesn't exist
+Warning--I didn't find a database entry for "none"
+(There were 2 error messages)
