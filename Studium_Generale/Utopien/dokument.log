@@ -1,0 +1,1078 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.13)  14 JUL 2020 04:50
+entering extended mode
+**./dokument.tex
+(dokument.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrreprt.cls
+Document Class: scrreprt 2020/04/19 v3.30 KOMA-Script document class (report)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
+)))
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box45
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 137.
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2424.
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrsize12pt.clo
+File: scrsize12pt.clo 2020/04/19 v3.30 KOMA-Script font size class option (12pt
+)
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/koma-script\typearea.sty
+Package: typearea 2020/04/19 v3.30 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count167
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 15
+(typearea)             BCOR = 48.36967pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 439.31064pt
+(typearea)              DIV departure   = -4%
+(typearea)              \evensidemargin = 31.01349pt
+(typearea)              \oddsidemargin  = 31.01349pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 650.0pt
+(typearea)              \topmargin      = -15.93353pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1738.
+)
+\c@part=\count168
+\c@chapter=\count169
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@subparagraph=\count174
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5588.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5598.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5598.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5607.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5617.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5617.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5627.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5627.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5637.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5637.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 5647.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 5647.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box46
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6883.
+
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count175
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6900.
+
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count176
+Class scrreprt Info: Redefining `\numberline' on input line 7069.
+\bibindent=\dimen134
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count177
+\float@exts=\toks16
+\float@box=\box47
+\@float@everytoks=\toks17
+\@floatcapt=\box48
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/play\play.sty
+Package: play 1999/03/26 A LaTeX package for typesetting plays
+\c@line=\count178
+\c@linemodulo=\count179
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/srcltx\srcltx.sty
+Package: srcltx 2006/11/12 v1.6 Source specials for inverse search in DVI files
+
+
+("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\src@lastline=\count180
+\src@new@everypar=\toks18
+\src@new@output=\toks19
+)
+("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package srcltx Info: Expanded filename `pdftex.def' to `pdftex.def.tex' on inpu
+t line 226.
+
+:<+ pdftex.def.tex
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+:<-
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen135
+\ar@mcellbox=\box49
+\extrarowheight=\dimen136
+\NC@list=\toks20
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box50
+)
+\everycr=\toks21
+\minrowclearance=\skip66
+)
+\rownum=\count181
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty"
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip67
+\LTright=\skip68
+\LTpre=\skip69
+\LTpost=\skip70
+\LTchunksize=\count182
+\LTcapwidth=\dimen137
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@cols=\count183
+\LT@rows=\count184
+\c@LT@tables=\count185
+\c@LT@chunks=\count186
+\LT@p@ftn=\toks22
+)
+Class scrreprt Info: longtable captions redefined on input line 24.
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip71
+\subfigcapskip=\skip72
+\subfigcaptopadj=\dimen138
+\subfigbottomskip=\skip73
+\subfigcapmargin=\dimen139
+\subfiglabelskip=\skip74
+\c@subfigure=\count187
+\c@lofdepth=\count188
+\c@subtable=\count189
+\c@lotdepth=\count190
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.cfg)
+\subfig@top=\skip75
+\subfig@bottom=\skip76
+)
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
+Package: babel 2020/07/07 3.46 The Babel package
+
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
+File: babel.def 2020/07/07 3.46 Babel common definitions
+\babel@savecnt=\count191
+\U@D=\dimen140
+\l@babelnohyphens=\language79
+
+("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count192
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/babel-german\ngerman.ldf
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
+phy)
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 121.
+)))
+("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
+)
+("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+("C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlayer-scrpage.
+sty
+Package: scrlayer-scrpage 2020/04/19 v3.30 KOMA-Script package (end user interf
+ace for scrlayer)
+ (C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlayer.sty
+Package: scrlayer 2020/04/19 v3.30 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 109.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 210
+6.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1244.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1271.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
+
+1: section
+1: chapter
+1: chapter
+1: section
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.s
+ty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count193
+\Hy@pagecounter=\count194
+Package srcltx Info: Expanded filename `pd1enc.def' to `pd1enc.def.tex' on inpu
+t line 775.
+
+:<+ pd1enc.def.tex
+("C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+:<-
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count195
+Package hyperref Info: Option `plainpages' set `false' on input line 4338.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4338.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count196
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen144
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count197
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/atbegshi\atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count198
+\c@Item=\count199
+\c@Hfootnote=\count266
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+Package srcltx Info: Expanded filename `hpdftex.def' to `hpdftex.def.tex' on in
+put line 43.
+
+:<+ hpdftex.def.tex
+("C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/atveryend\atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count267
+\c@bookmark@seq@number=\count268
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck
+.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter
+.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip77
+)
+:<-
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 59.
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/nomencl\nomencl.sty
+Package: nomencl 2020/03/01 v5.4 Nomenclature package
+
+("C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count269
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+Package tocbasic Info: setting babel extension for `nlo' on input line 179.
+Package tocbasic Info: setting babel extension for `nls' on input line 180.
+\nomlabelwidth=\dimen147
+\nom@tempdim=\dimen148
+\nomitemsep=\skip78
+)
+\@nomenclaturefile=\write3
+\openout3 = `dokument.nlo'.
+
+Package nomencl Info: Writing nomenclature file dokument.nlo on input line 69.
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box55
+\UL@hyphenbox=\box56
+\UL@skip=\skip79
+\UL@hook=\toks27
+\UL@height=\dimen149
+\UL@pe=\count270
+\UL@pixel=\dimen150
+\ULC@box=\box57
+Package: ulem 2019/11/18
+\ULdepth=\dimen151
+)
+\inhaltkl=\box58
+\inhalt=\box59
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count271
+\@cmidlb=\count272
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count273
+\@lastruleclass=\count274
+\@thisrulewidth=\dimen164
+)
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count275
+\l__pdf_internal_box=\box60
+)
+(dokument.aux
+
+LaTeX Warning: Label `img:passante' multiply defined.
+
+
+LaTeX Warning: Label `img:passante' multiply defined.
+
+
+LaTeX Warning: Label `img:passante' multiply defined.
+
+
+LaTeX Warning: Label `img:passante' multiply defined.
+
+)
+\openout1 = `dokument.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 13
+6.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen165
+\scratchbox=\box61
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen166
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks29
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\AtBeginShipoutBox=\box62
+Package hyperref Info: Link coloring OFF on input line 136.
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestri
+ng.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count282
+)
+LaTeX Info: Redefining \ref on input line 136.
+LaTeX Info: Redefining \pageref on input line 136.
+LaTeX Info: Redefining \nameref on input line 136.
+ (dokument.out) (dokument.out)
+\@outlinefile=\write4
+\openout4 = `dokument.out'.
+
+Class scrreprt Info: loading recommended package `bookmark'.
+(scrreprt)           Using `bookmark' together with `hyperref' is recommended,
+(scrreprt)           because of handling of possible bookmark level gaps.
+(scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
+(scrreprt)           `bookmarkpackage=false' before \begin{document} and
+(scrreprt)           you can avoid this message adding:
+(scrreprt)             \usepackage{bookmark}
+(scrreprt)           before \begin{document} on input line 136.
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
+
+(C:\Users\Zeyecx\AppData\Roaming\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
+Package auxhook Info: \AddLineBeginMainAux comes a little late,
+(auxhook)             because the main .aux file is already opened on input lin
+e 168.
+\BKM@id=\count283
+))
+Package srcltx Info: Expanded filename `titelblatt.tex' to `titelblatt.tex' on 
+input line 138.
+
+:<+ titelblatt.tex
+(titelblatt.tex
+<tui_logo.pdf, id=3, 138.5175pt x 113.42375pt>
+File: tui_logo.pdf Graphic file (type pdf)
+<use tui_logo.pdf>
+Package pdftex.def Info: tui_logo.pdf  used on input line 18.
+(pdftex.def)             Requested size: 69.25858pt x 56.71173pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+5.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+5.
+
+("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+25.
+
+("C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+25.
+
+("C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 25.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 25.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 25.
+ [1
+
+
+
+{C:/Users/Zeyecx/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./tui_logo.pdf
+>])
+:<-
+Package srcltx Info: Expanded filename `vorwort.tex' to `vorwort.tex' on input 
+line 139.
+:<+ vorwort.tex
+(vorwort.tex
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+:<-
+Package srcltx Info: Expanded filename `kurzfassung.tex' to `kurzfassung.tex' o
+n input line 140.
+:<+ kurzfassung.tex
+(kurzfassung.tex [2] [3
+
+
+] [4
+
+
+])
+:<-
+(dokument.toc [1
+
+
+
+
+])
+\tf@toc=\write5
+\openout5 = `dokument.toc'.
+
+ [2]
+Package srcltx Info: Expanded filename `Deffinition.tex' to `Deffinition.tex' o
+n input line 151.
+
+:<+ Deffinition.tex
+(Deffinition.tex
+chapter 1.
+
+Class scrreprt Warning: \float@addtolists detected!
+(scrreprt)              Implementation of \float@addtolist became
+(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrreprt)              has been replaced by several more flexible
+(scrreprt)              features of package `tocbasic`.
+(scrreprt)              Since Version 3.12 support for deprecated
+(scrreprt)              \float@addtolist interface has been
+(scrreprt)              restricted to only some of the KOMA-Script
+(scrreprt)              features and been removed from others.
+(scrreprt)              Loading of package `scrhack' may help to
+(scrreprt)              avoid this warning, if you are using a
+(scrreprt)              a package that still implements the
+(scrreprt)              deprecated \float@addtolist interface.
+
+)
+:<-
+Package srcltx Info: Expanded filename `Künstliche_Intelligenz.tex' to `Künst
+liche_Intelligenz.tex' on input line 152.
+:<+ Künstliche_Intelligenz.tex
+(Künstliche_Intelligenz.tex [1
+
+
+
+
+]
+chapter 2.
+[2
+
+
+]
+<table.png, id=155, 489.32813pt x 149.55875pt>
+File: table.png Graphic file (type png)
+<use table.png>
+Package pdftex.def Info: table.png  used on input line 49.
+(pdftex.def)             Requested size: 455.25711pt x 199.18448pt.
+
+Overfull \hbox (15.94647pt too wide) in paragraph at lines 49--50
+ [][][] 
+ []
+
+)
+:<-
+Package srcltx Info: Expanded filename `Turing.tex' to `Turing.tex' on input li
+ne 153.
+:<+ Turing.tex
+(Turing.tex [3] [4 <./table.png>]
+chapter 3.
+
+LaTeX Warning: Citation `gregorlüdi/martinlüscher20077' on page 5 undefined o
+n input line 7.
+
+[5
+
+
+])
+:<-
+Package srcltx Info: Expanded filename `NierAutomata.tex' to `NierAutomata.tex'
+ on input line 154.
+:<+ NierAutomata.tex
+(NierAutomata.tex [6]
+chapter 4.
+[7
+
+
+] [8] [9] [10
+
+])
+:<-
+Package srcltx Info: Expanded filename `Dystopie.tex' to `Dystopie.tex' on inpu
+t line 155.
+:<+ Dystopie.tex
+(Dystopie.tex [11]
+chapter 5.
+[12
+
+
+])
+:<-
+Package srcltx Info: Expanded filename `Fazit.tex' to `Fazit.tex' on input line
+ 156.
+:<+ Fazit.tex
+(Fazit.tex [13]
+chapter 6.
+)
+:<-
+[14
+
+
+] [15
+
+
+]
+Package srcltx Info: Expanded filename `Epilog.tex' to `Epilog.tex' on input li
+ne 165.
+
+:<+ Epilog.tex
+(Epilog.tex
+chapter A.
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 16.
+
+[16
+
+
+] [17]
+Overfull \hbox (12.70528pt too wide) in paragraph at lines 108--109
+[][]\T1/lmr/m/n/12 (\T1/lmr/m/it/12 narration\T1/lmr/m/n/12 ) I al-so heard abo
+ut how the two of them de-stroy-ed so-me hu-ge "Tower"that
+ []
+
+[18] [19] [20] [21] [22])
+:<-
+Package srcltx Info: Expanded filename `anhang_literaturverzeichnis.tex' to `an
+hang_literaturverzeichnis.tex' on input line 168.
+:<+ anhang_literaturverzeichnis.tex
+(anhang_literaturverzeichnis.tex [23]
+:<+ dokument.bbl
+(dokument.bbl
+chapter without number
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+4.
+("C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+\T1/lmtt/m/n/12 ai / de / blog / post / geschichte-[]kuenstlicher-[]intelligenz
+ . html$[]\T1/lmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+[][]\T1/lmr/m/sc/12 Dika\T1/lmr/m/n/12 , Ma-ja:  \T1/lmr/m/it/12 Un-ser Wun-der
+-sa-mes Be-geh-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+\T1/lmr/m/it/12 ren nach Dys-to-pi-en\T1/lmr/m/n/12 .  []$[]\T1/lmtt/m/n/12 htt
+ps : / / liechtenecker . at /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+\T1/lmtt/m/n/12 unser-[]wundersames-[]begehren-[]nach-[]dystopien-[]und-[]utopi
+en/$[]\T1/lmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+[][]\T1/lmr/m/sc/12 Jaai\T1/lmr/m/n/12 :  \T1/lmr/m/it/12 mensch oder ma-schi-n
+e der tu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+\T1/lmr/m/it/12 ring test ein-fach er-klaert\T1/lmr/m/n/12 .  []$[]\T1/lmtt/m/n
+/12 https : / / jaai . de /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+\T1/lmtt/m/n/12 mensch-[]oder-[]maschine-[]der-[]turing-[]test-[]einfach-[]erkl
+aert-[]1385/$[]\T1/lmr/m/n/12 .
+ []
+
+[24
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 69--74
+[][]\T1/lmr/m/sc/12 Wermer\T1/lmr/m/n/12 , So-phia:  \T1/lmr/m/it/12 Das tra-gi
+-sche En-de ei-nes Com-pu-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--74
+\T1/lmr/m/it/12 spio-niers\T1/lmr/m/n/12 .  []$[]\T1/lmtt/m/n/12 https : / / ww
+w . welt . de / kultur / article106964473 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--74
+\T1/lmtt/m/n/12 Das-[]tragische-[]Ende-[]eines-[]genialen-[]Computerpioniers . 
+html$[]\T1/lmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 76--80
+[][]\T1/lmr/m/sc/12 Wikia\T1/lmr/m/n/12 , Nier:Automata:  \T1/lmr/m/it/12 Yor-h
+a 2B\T1/lmr/m/n/12 .  []$[]\T1/lmtt/m/n/12 https : / / nierautomata . wiki .
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 82--86
+[][]\T1/lmr/m/sc/12 Wikia\T1/lmr/m/n/12 , Nier:Automata:  \T1/lmr/m/it/12 Yor-h
+a 9S\T1/lmr/m/n/12 .  []$[]\T1/lmtt/m/n/12 https : / / nierautomata . wiki .
+ []
+
+)
+:<-
+
+Overfull \hbox (2417.71478pt too wide) in paragraph at lines 11--12
+[][]  
+ []
+
+)
+:<-
+Package srcltx Info: Expanded filename `Bilder.tex' to `Bilder.tex' on input li
+ne 171.
+:<+ Bilder.tex
+(Bilder.tex [25]
+chapter B.
+\@float@every@figure=\toks30
+<Nier/world/area.jpg, id=289, 1027.84pt x 537.00626pt>
+File: Nier/world/area.jpg Graphic file (type jpg)
+<use Nier/world/area.jpg>
+Package pdftex.def Info: Nier/world/area.jpg  used on input line 11.
+(pdftex.def)             Requested size: 426.79659pt x 199.16446pt.
+<Nier/world/desert.jpg, id=290, 1365.1pt x 770.88pt>
+File: Nier/world/desert.jpg Graphic file (type jpg)
+<use Nier/world/desert.jpg>
+Package pdftex.def Info: Nier/world/desert.jpg  used on input line 18.
+(pdftex.def)             Requested size: 426.78017pt x 199.16547pt.
+<Nier/world/water.jpg, id=291, 1284.8pt x 722.7pt>
+File: Nier/world/water.jpg Graphic file (type jpg)
+<use Nier/world/water.jpg>
+Package pdftex.def Info: Nier/world/water.jpg  used on input line 25.
+(pdftex.def)             Requested size: 426.78874pt x 199.16766pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Nier/world/fun.jpg, id=292, 798.68674pt x 402.02768pt>
+File: Nier/world/fun.jpg Graphic file (type jpg)
+<use Nier/world/fun.jpg>
+Package pdftex.def Info: Nier/world/fun.jpg  used on input line 32.
+(pdftex.def)             Requested size: 426.7996pt x 199.173pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26
+
+
+ <./Nier/world/area.jpg> <./Nier/world/desert.jpg>] [27 <./Nier/world/water.jpg
+> <./Nier/world/fun.jpg>]
+<Nier/Chara/YoRHa_No-9_Type_S.png, id=305, 150.5625pt x 450.68375pt>
+File: Nier/Chara/YoRHa_No-9_Type_S.png Graphic file (type png)
+<use Nier/Chara/YoRHa_No-9_Type_S.png>
+Package pdftex.def Info: Nier/Chara/YoRHa_No-9_Type_S.png  used on input line 4
+1.
+(pdftex.def)             Requested size: 215.28435pt x 483.71912pt.
+<Nier/Chara/YoRHa_No-2_Type_B.png, id=306, 234.8775pt x 451.6875pt>
+File: Nier/Chara/YoRHa_No-2_Type_B.png Graphic file (type png)
+<use Nier/Chara/YoRHa_No-2_Type_B.png>
+Package pdftex.def Info: Nier/Chara/YoRHa_No-2_Type_B.png  used on input line 4
+2.
+(pdftex.def)             Requested size: 215.26561pt x 483.72816pt.
+ [28
+
+ <./Nier/Chara/YoRHa_No-9_Type_S.png> <./Nier/Chara/YoRHa_No-2_Type_B.png>]
+<Nier/Chara/YoRHa_Commander.png, id=317, 162.6075pt x 451.6875pt>
+File: Nier/Chara/YoRHa_Commander.png Graphic file (type png)
+<use Nier/Chara/YoRHa_Commander.png>
+Package pdftex.def Info: Nier/Chara/YoRHa_Commander.png  used on input line 51.
+
+(pdftex.def)             Requested size: 215.28023pt x 483.72816pt.
+<Nier/Chara/YoRHa_No-2A.png, id=318, 215.80624pt x 450.68375pt>
+File: Nier/Chara/YoRHa_No-2A.png Graphic file (type png)
+<use Nier/Chara/YoRHa_No-2A.png>
+Package pdftex.def Info: Nier/Chara/YoRHa_No-2A.png  used on input line 52.
+(pdftex.def)             Requested size: 215.27225pt x 483.71912pt.
+)
+:<-
+Package srcltx Info: Expanded filename `anhang_abbildungsverzeichnis.tex' to `a
+nhang_abbildungsverzeichnis.tex' on input line 175.
+:<+ anhang_abbildungsverzeichnis.tex
+(anhang_abbildungsverzeichnis.tex [29
+
+ <./Nier/Chara/YoRHa_Commander.png> <./Nier/Chara/YoRHa_No-2A.png>] (dokument.l
+of)
+\tf@lof=\write6
+\openout6 = `dokument.lof'.
+
+)
+:<-
+Package srcltx Info: Expanded filename `thesen.tex' to `thesen.tex' on input li
+ne 184.
+:<+ thesen.tex
+(thesen.tex [30
+
+
+
+
+])
+:<-
+Package srcltx Info: Expanded filename `abschlusserklaerung.tex' to `abschlusse
+rklaerung.tex' on input line 187.
+:<+ abschlusserklaerung.tex
+(abschlusserklaerung.tex [31
+
+
+])
+:<-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+[32
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
+ (dokument.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package rerunfilecheck Info: File `dokument.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+ ) 
+Here is how much of TeX's memory you used:
+ 12886 strings out of 480790
+ 246820 string characters out of 2907052
+ 663921 words of memory out of 3000000
+ 28474 multiletter control sequences out of 15000+200000
+ 595613 words of font info for 55 fonts, out of 3000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 61i,19n,87p,10123b,691s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTe
+X/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
+lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri
+12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.p
+fb>
+Output written on dokument.pdf (38 pages, 2376324 bytes).
+PDF statistics:
+ 564 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
+ 451 words of extra memory for PDF output out of 10000 (max. 10000000)
+

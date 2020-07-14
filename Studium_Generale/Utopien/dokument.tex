@@ -32,7 +32,10 @@
 \usepackage{lmodern}
 \usepackage[T1]{url}
 \usepackage[final]{graphicx}
-\usepackage[automark]{scrpage2}
+\RequirePackage{scrlfile}
+\ReplacePackage{scrpage2}{scrlayer-scrpage}
+% old: \usepackage[automark]{scrpage2}
+\usepackage[automark]{scrlayer-scrpage}
 \usepackage{setspace}
 \usepackage{cite}
 %\usepackage[first,light]{draftcopy} % Für Probedruck

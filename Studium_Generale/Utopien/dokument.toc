@@ -1,0 +1,51 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Erklärungen}{1}{chapter.3}%
+\contentsline {section}{\numberline {1.1}Dystopie}{1}{section.4}%
+\contentsline {section}{\numberline {1.2}Künstliche Intelligenz}{1}{section.5}%
+\contentsline {section}{\numberline {1.3}Turing Test}{1}{section.6}%
+\contentsline {section}{\numberline {1.4}Nier:Automata}{1}{section.7}%
+\contentsline {chapter}{\numberline {2}Künstliche Intelligenz}{2}{chapter.8}%
+\contentsline {section}{\numberline {2.1}Geschichte der Künstlichen Intelligenz}{2}{section.9}%
+\contentsline {section}{\numberline {2.2}Die Entwicklung der KI}{2}{section.10}%
+\contentsline {section}{\numberline {2.3}Aktueller Stand von KI's}{2}{section.11}%
+\contentsline {section}{\numberline {2.4}Risiken und Vorteile}{3}{section.12}%
+\contentsline {section}{\numberline {2.5}AlphaZero als Beispiel für eine Künstliche Intelligenz}{3}{section.13}%
+\contentsline {chapter}{\numberline {3}Der Turing Test}{5}{chapter.15}%
+\contentsline {section}{\numberline {3.1}Alan Turing}{5}{section.16}%
+\contentsline {section}{\numberline {3.2}Der Turing Test}{5}{section.17}%
+\contentsline {section}{\numberline {3.3}Kritik am Turing Test}{6}{section.18}%
+\contentsline {section}{\numberline {3.4}Alternativen}{6}{section.19}%
+\contentsline {chapter}{\numberline {4}Nier:Automata}{7}{chapter.20}%
+\contentsline {section}{\numberline {4.1}Der Hintergrund}{7}{section.21}%
+\contentsline {section}{\numberline {4.2}Die Hauptcharaktere}{7}{section.22}%
+\contentsline {subsection}{\numberline {4.2.1}Die Androidin 2B}{7}{subsection.23}%
+\contentsline {subsection}{\numberline {4.2.2}Der Android 9S}{8}{subsection.24}%
+\contentsline {section}{\numberline {4.3}Die wichtigsten Nebencharaktere}{9}{section.25}%
+\contentsline {subsection}{\numberline {4.3.1}Adam und Eva}{9}{subsection.26}%
+\contentsline {subsection}{\numberline {4.3.2}Die Androidin 2A}{10}{subsection.27}%
+\contentsline {section}{\numberline {4.4}Die Story}{10}{section.28}%
+\contentsline {subsection}{\numberline {4.4.1}Das Intro}{10}{subsection.29}%
+\contentsline {subsection}{\numberline {4.4.2}Die Mainline}{10}{subsection.30}%
+\contentsline {subsection}{\numberline {4.4.3}Das Ende}{11}{subsection.31}%
+\contentsline {chapter}{\numberline {5}Dystopie}{12}{chapter.32}%
+\contentsline {section}{\numberline {5.1}Warum sind wir so neugierig nach Utopien?}{12}{section.33}%
+\contentsline {section}{\numberline {5.2}Warum ist Nier nun eine Dystopie?}{12}{section.34}%
+\contentsline {section}{\numberline {5.3}Ist so eine Dystopie realistisch ?}{12}{section.35}%
+\contentsline {section}{\numberline {5.4}Werden Maschinen jemals Gefühle empfinden können?}{13}{section.36}%
+\contentsline {chapter}{\numberline {6}Fazit}{14}{chapter.37}%
+\contentsline {chapter}{\numberline {A}Epilog der Pod Programme}{16}{appendix.40}%
+\contentsline {section}{\numberline {A.1}Inhalt}{16}{section.41}%
+\contentsline {section}{\numberline {A.2}Farmwell}{16}{section.42}%
+\contentsline {subsection}{\numberline {A.2.1}Narration}{16}{subsection.43}%
+\contentsline {subsection}{\numberline {A.2.2}5. September 11945}{16}{subsection.44}%
+\contentsline {subsection}{\numberline {A.2.3}14. September 11945}{18}{subsection.45}%
+\contentsline {subsection}{\numberline {A.2.4}17. September 11945}{19}{subsection.46}%
+\contentsline {subsection}{\numberline {A.2.5}19. September 11945}{21}{subsection.47}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{24}{chapter*.48}%
+\contentsline {chapter}{\numberline {B}Bilder aus Nier:Automata}{26}{appendix.49}%
+\contentsline {section}{\numberline {B.1}Die Welt}{26}{section.50}%
+\contentsline {section}{\numberline {B.2}Die Charaktere}{28}{section.55}%
+\contentsline {section}{\numberline {B.3}Wichtige Nebencharaktere}{29}{section.59}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{30}{chapter*.63}%
+\contentsline {chapter}{Thesen zur Hausarbeit}{31}{chapter*.64}%
+\contentsline {chapter}{Erklärung}{32}{chapter*.69}%

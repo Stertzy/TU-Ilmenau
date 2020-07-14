@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dokument.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: alphadin.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: literatur.bib
+Warning--entry type for "jaai2019" isn't style-file defined
+--line 1 of file literatur.bib
+Warning--entry type for "telekomag2019" isn't style-file defined
+--line 15 of file literatur.bib
+Warning--entry type for "nier:automatawikia20192b" isn't style-file defined
+--line 31 of file literatur.bib
+Warning--entry type for "nier:automatawikia20199S" isn't style-file defined
+--line 38 of file literatur.bib
+Warning--entry type for "verschiedene2019npc" isn't style-file defined
+--line 59 of file literatur.bib
+Warning--entry type for "dysto" isn't style-file defined
+--line 85 of file literatur.bib
+Warning--entry type for "Turing_Leben" isn't style-file defined
+--line 94 of file literatur.bib
+Warning--entry type for "Workshop" isn't style-file defined
+--line 103 of file literatur.bib
+A bad cross reference---entry "deepmind2018"
+refers to entry "none", which doesn't exist
+Warning--I didn't find a database entry for "gregorlüdi/martinlüscher20077"
+Warning--I didn't find a database entry for "none"
+You've used 10 entries,
+            4793 wiz_defined-function locations,
+            942 strings with 8435 characters,
+and the built_in function-call counts, 4209 in all, are:
+= -- 396
+> -- 80
+< -- 81
++ -- 82
+- -- 20
+* -- 224
+:= -- 680
+add.period$ -- 19
+call.type$ -- 10
+change.case$ -- 40
+chr.to.int$ -- 9
+cite$ -- 10
+duplicate$ -- 156
+empty$ -- 367
+format.name$ -- 60
+if$ -- 896
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 57
+newline$ -- 70
+num.names$ -- 30
+pop$ -- 73
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 254
+stack$ -- 0
+substring$ -- 181
+swap$ -- 30
+text.length$ -- 21
+text.prefix$ -- 10
+top$ -- 0
+type$ -- 112
+warning$ -- 0
+while$ -- 30
+width$ -- 11
+write$ -- 137
+(There was 1 error message)
