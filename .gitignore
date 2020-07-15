@@ -12,6 +12,9 @@
 *.cb2
 .*.lb
 
+## Edit Git Ignore :) 
+*.synctex.gz
+
 ## Intermediate documents:
 *.dvi
 *.xdv
