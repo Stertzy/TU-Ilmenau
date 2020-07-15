@@ -404,13 +404,13 @@ C:.
 |   +---Einmaleins
 |   |       einmaleins.java
 |   |       
-|   +---Fakult„t
-|   |       Fakult„t.rmp
+|   +---Fakultï¿½t
+|   |       Fakultï¿½t.rmp
 |   |       
 |   +---Fibonacci
 |   |       Fibonacci.java
 |   |       
-|   +---Ged”ns
+|   +---Gedï¿½ns
 |   |       aupUtils.jar
 |   |       Develop.java
 |   |       
@@ -456,7 +456,7 @@ C:.
 |       |       middle.java
 |       |       
 |       +---old
-|       |   |   šbersicht.txt
+|       |   |   ï¿½bersicht.txt
 |       |   |   
 |       |   +---BefreundeteZahlen
 |       |   |       BefreundeteZahlen.java
@@ -495,9 +495,9 @@ C:.
 |       |   |       Hauptklasse.java
 |       |   |       
 |       |   +---Sudoku
-|       |   |       beispiel_L”sung.png
+|       |   |       beispiel_Lï¿½sung.png
 |       |   |       bsp2.png
-|       |   |       bsp2_l”sung.png
+|       |   |       bsp2_lï¿½sung.png
 |       |   |       FileUtils.java
 |       |   |       InputReader.java
 |       |   |       IOUtils.java
@@ -780,18 +780,7 @@ C:.
         |   Fazit.tex
         |   Hausarbeit.tex
         |   kurzfassung.tex
-        |   Knstliche_Intelligenz.tex
-        |   literatur.bib
-        |   NierAutomata.tex
-        |   table.png
-        |   thesen-handout.tex
-        |   thesen.tex
-        |   titelblatt.tex
-        |   tui_logo.pdf
-        |   Turing.tex
-        |   vorwort.tex
-        |   
-        \---Nier
+        |   Kï¿½nstlicheasdsada
             +---Chara
             |       YoRHa_Commander.png
             |       YoRHa_No-2A.png
