@@ -5,4 +5,4 @@
 # TU - Ilmenau 
 
 
-[Kontakt](mailto:jonathan.skopp@gmail.com)
+[Kontakt](mailto:jonathan.skopp@gmail.com) ( <--- Privat)
