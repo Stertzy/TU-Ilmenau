@@ -1,0 +1,81 @@
+@echo off
+color a
+title Git Uploader für alle Git Systeme
+
+
+if not exist "C:\Users\Zeyecx\Git" mkdir "C:\Users\Zeyecx\Git"
+
+cd C:\Users\Zeyecx\Git
+
+if not exist AGS-Erfurt git clone https://github.com/Zeyecx/AGS-Erfurt.git
+cd AGS-Erfurt
+git add *
+git commit -m "Skript commit"
+git push 
+git pull
+cd ..
+
+if not exist StudyMint git clone https://github.com/Zeyecx/StudyMint.git
+cd StudyMint
+git add *
+git commit -m "Skript commit"
+git push
+git pull
+cd ..
+
+if not exist FU-Hagen git clone https://github.com/Zeyecx/FU-Hagen.git
+cd FU-Hagen
+git add *
+git commit -m "Skript commit"
+git push
+git pull
+cd ..
+
+if not exist Hausarbeit git clone https://github.com/Zeyecx/Hausarbeit.git
+cd Hausarbeit
+git add *
+git commit -m "Skript commit"
+git push
+git pull
+cd ..
+
+
+if not exist TU-Ilmenau git clone https://github.com/Zeyecx/TU-Ilmenau.git
+cd TU-Ilmenau 
+git add *
+git commit -m "Skript commit"
+git push
+git pull
+cd ..
+
+
+if not exist Zeyecx.github.io git clone https://github.com/Zeyecx/Zeyecx.github.io.git
+cd Zeyecx.github.io
+git add *
+git commit -m "Skript commit"
+git push
+git pull
+cd ..
+
+
+if not exist Lichess-Bot git clone https://github.com/Zeyecx/Lichess-Bot.git
+cd Lichess-Bot
+git add *
+git commit -m "Skript commit"
+git push
+git pull
+cd ..
+
+
+if not exist Kramkiste git clone https://github.com/Zeyecx/Kramkiste.git
+cd Kramkiste
+git add *
+git commit -m "Skript commit"
+git push
+git pull
+cd ..
+
+
+
+cd C:\Users\Zeyecx\Git
+mklink /J "C:\Users\Zeyecx\Git" "C:\Users\Zeyecx\Desktop\Git"
