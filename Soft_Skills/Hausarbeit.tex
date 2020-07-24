@@ -1,4 +1,3 @@
-
 \documentclass
 [   twoside=false,     % Einseitiger oder zweiseitiger Druck?
     fontsize=12pt,     % Bezug: 12-Punkt Schriftgröße
@@ -17,8 +16,12 @@
     footinclude=false, % Seiten-Foot nicht in die Satzspiegelberechnung mit einbeziehen
     numbers=noenddot   % Gliederungsnummern ohne abschließenden Punkt darstellen
 ]   {scrreprt}         % Dokumentenstil: "Report" aus dem KOMA-Skript-Paket
-
+\usepackage{float}
+\usepackage{play}
 \usepackage[active]{srcltx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{longtable}
+\usepackage{subfigure}  	
 %\usepackage[activate=normal]{pdfcprot} % Optischer Randausgleich -> pdflatex!
 \usepackage{ifthen}
 \usepackage[ngerman]{babel}   % Neue Deutsche Rechtschreibung
@@ -34,6 +37,7 @@
 % old: \usepackage[automark]{scrpage2}
 \usepackage[automark]{scrlayer-scrpage}
 \usepackage{setspace}
+\usepackage{cite}
 %\usepackage[first,light]{draftcopy} % Für Probedruck
 \usepackage[plainpages=false,pdfpagelabels,hypertexnames=false]{hyperref}
 
@@ -45,21 +49,21 @@
 % die persönlichen Daten und das Thema der Arbeit eintragen:
 \newcommand{\artderausarbeitung}{Hausarbeit}
 \newcommand{\namedesautors}{Jonathan Skopp}
-\newcommand{\themaderarbeit}{Selbstreflexion zum Modul Soft Skills}
+\newcommand{\themaderarbeit}{Die Dystopie von Nier - \\ Künstliche Intelligenz und humanoide Roboter in Bezug auf die Entwicklung der Menschheit}
 
 % PDF Metadaten definieren
 \hypersetup{
    pdftitle={\themaderarbeit},
    pdfsubject={\artderausarbeitung},
    pdfauthor={\namedesautors},
-   pdfkeywords={\artderausarbeitung; TU-Ilmenau; ZIB;}}
+   pdfkeywords={\artderausarbeitung; TU-Ilmenau; Hausarbeit;}}
 
 
 % Abkürzungsverzeichnis beeinflussen. Hier nichts ändern!
 \usepackage[intoc]{nomencl}
   \AtBeginDocument{\setlength{\nomlabelwidth}{.25\columnwidth}}
   \let\abbrev\nomenclature
-  \renewcommand{\nomname}{Abkürzungsverzeichnis und Formelzeichen}
+  \renewcommand{\nomname}{Abkürzungsverzeichnis}
   \renewcommand{\nomlabel}[1]{#1 \dotfill}
   \setlength{\nomitemsep}{-\parsep}
   \makenomenclature
@@ -132,6 +136,7 @@ Hard-ware
 \begin{document}
 \onehalfspacing
 \input{titelblatt.tex}
+\input{vorwort.tex}
 
 
 % Inhaltsverzeichnis
@@ -143,15 +148,27 @@ Hard-ware
 % Die einzelnen Kapitel
 \cleardoublepage % Seitenumbruch erzwingen vor Änderung des Nummerierungsstils
 \pagenumbering{arabic} % Nummerierung der Seiten ab hier: 1, 2, 3, 4...
-\input{Mein_Wissen.tex}
-\input{Neues_Wissen.tex}
-\input{Mitgenommen.tex}
 
-\input{Resonanz.tex}
+%% Content
 
 
-%\appendix
-%\part*{Anhang}
+
+
+%% End Content
+
+
+\appendix
+\part*{Anhang}
+
+
+% Epilog Pod Dialog
+
+% Literaturverzeichnis einbinden
+\input{anhang_literaturverzeichnis.tex}
+
+
+
+
 
 
 % Abschlusserklärung
